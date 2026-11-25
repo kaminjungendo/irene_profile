@@ -49,12 +49,11 @@ body{
 }
 .brand-name{
     font-size: 25px;
-
 }
 
 .brand-logo{
     padding-top:25px ;
-    padding-bottom: 30px;
+    padding-bottom: 25px;
 }
 
 .brand-side-bar-image{
@@ -64,6 +63,7 @@ body{
     border-color: var(--cyan-color);
     border-style: solid;
     border-radius: 40px;
+    margin: 25px;
 }
 
 /* END OF SIDEBAR*/
@@ -107,4 +107,89 @@ body{
     font-size: 20px;
 }
 
+/*FOOTER SYLES*/
+.footer-paragraph{
+    color: #a3c2c2;
+}
+/*END OF FOOTER SYLES*/
 
+/*ABOUT PAGE*/
+.get-to-know-me-paragraph{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: var(--cyan-color);
+}
+
+.about-me-h6{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.me-span-text{
+    color: var(--orange-colour);
+}
+
+.get-to-know-me{
+    padding-top: 10px;
+}
+
+.who-iam-paragraph{
+    color: var(--cyan-color);
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.creative-mind-h6{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.span-creative-mind{
+    color: var(--orange-colour);
+}
+
+.who-Iam-p1 , .who-Iam-p2{
+    line-height: 30px;
+}
+
+.first-td{
+    color: var(--cyan-color);
+}
+
+.second-td{
+    color: var(--white-color);
+}
+
+.download-cv{
+   background-color: var(--dark-blue-color); 
+   color: var(--blue-color);
+   padding-left: 30px;
+   padding-right: 30px;
+   padding-top: 15px;
+   padding-bottom: 15px;
+}
+
+.download-cv:hover{
+    background-color: var(--blue-color);
+    color: var(--dark-blue-color);
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+}
+
+/* END OF ABOUT PAGE*/
+
+/*PORTFOLIO PAGE*/
+.my-work-card{
+    background-color: var(--light-blue-color);
+}
+.card-btn{
+    border: 1px solid var(--cyan-color);
+    color: var(--cyan-color);
+}
+
+.card-btn:hover{
+    background-color: var(--light-blue-color);
+    border: 1px solid var(--cyan-color);
+}
